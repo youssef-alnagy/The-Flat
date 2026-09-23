@@ -26,6 +26,18 @@
       --light: #F5EFE6;
     }
 
+    .item-side[dir="rtl"] {
+      text-align: right;
+    }
+
+    .item-helper {
+      margin-top: 4px;
+      font-size: 12px;
+      color: #888;
+      line-height: 1.4;
+    }
+
+
     * {
       margin: 0;
       padding: 0;
@@ -469,7 +481,7 @@
       </div>
 
       <div class="item">
-        <div class="item-en">Mint Tea</div>
+        <div class="item-en">Mint</div>
         <div class="item-price">10 <span>EGP</span></div>
         <div class="item-ar">نعناع</div>
       </div>
@@ -492,34 +504,41 @@
       </div>
 
       <div class="item">
-        <div class="item-en">Nescafé 3in1</div>
+        <div class="item-en">Nescafé</div>
         <div class="item-price">20 <span>EGP</span></div>
-        <div class="item-ar">نسكافيه 3×1</div>
-      </div>
-
-
-      <div class="item">
-        <div class="item-en">Nescafé 2in1</div>
-        <div class="item-price">20 <span>EGP</span></div>
-        <div class="item-ar">نسكافيه 2×1</div>
+        <div class="item-ar">نسكافيه</div>
       </div>
 
       <div class="item">
-        <div class="item-en">Buongiorno Cappuccino Mocha</div>
+        <div class="item-side">
+          <div class="item-en">Nescafé</div>
+          <div class="item-helper">Bonjorno Cappuccino, Coffee Break, Nescafé 2×1</div>
+        </div>
+
         <div class="item-price">20 <span>EGP</span></div>
-        <div class="item-ar">بونجورنو كابتشينو موكا</div>
+
+        <div class="item-side" dir="rtl">
+          <div class="item-ar">نسكافيه</div>
+          <div class="item-helper">بونجورنو كابتشينو، كوفي بريك، نسكافيه 2×1</div>
+        </div>
       </div>
 
       <div class="item">
-        <div class="item-en">Coffee Break </div>
-        <div class="item-price">20 <span>EGP</span></div>
-        <div class="item-ar">كوفي بريك</div>
+        <div class="item-en">Coffee</div>
+        <div class="item-price">25 <span>EGP</span></div>
+        <div class="item-ar">قهوة</div>
       </div>
 
       <div class="item">
-        <div class="item-en">Coffee Break with milk</div>
+        <div class="item-en">Turkish Coffee</div>
+        <div class="item-price">25 <span>EGP</span></div>
+        <div class="item-ar">قهوة تركي</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Spiced Coffee</div>
         <div class="item-price">35 <span>EGP</span></div>
-        <div class="item-ar">كوفي بريك بلبن</div>
+        <div class="item-ar">قهوة محوجة</div>
       </div>
 
 
@@ -546,6 +565,12 @@
         <div class="item-en">Canned Juice</div>
         <div class="item-price">15 <span>EGP</span></div>
         <div class="item-ar">عصير معلب</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Juice</div>
+        <div class="item-price">10 <span>EGP</span></div>
+        <div class="item-ar">عصير</div>
       </div>
 
       <div class="item">
@@ -576,8 +601,20 @@
 
       <div class="item">
         <div class="item-en">Indomie</div>
-       <div class="item-price">25 <span>EGP</span></div>
+        <div class="item-price">25 <span>EGP</span></div>
         <div class="item-ar">اندومي</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Indomie Small</div>
+        <div class="item-price">20 <span>EGP</span></div>
+        <div class="item-ar">اندومي صغير</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">2 Indomie Small</div>
+        <div class="item-price">35 <span>EGP</span></div>
+        <div class="item-ar">2 اندومي صغير</div>
       </div>
 
     </div>
@@ -649,6 +686,48 @@
         <div class="item-ar">تايجر شيبسي</div>
       </div>
 
+      <div class="item">
+        <div class="item-en">Doritos</div>
+        <div class="item-price">12 <span>EGP</span></div>
+        <div class="item-ar">دوريتوس</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Molto</div>
+        <div class="item-price">12 <span>EGP</span></div>
+        <div class="item-ar">مولتو</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Molto Magic</div>
+        <div class="item-price">17 <span>EGP</span></div>
+        <div class="item-ar">مولتو ماجيك</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Bake Rolz Small</div>
+        <div class="item-price">12 <span>EGP</span></div>
+        <div class="item-ar">بيك رولز صغير</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Bake Rolz Large</div>
+        <div class="item-price">17 <span>EGP</span></div>
+        <div class="item-ar">بيك رولز كبير</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Popcorn</div>
+        <div class="item-price">12 <span>EGP</span></div>
+        <div class="item-ar">فشار</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Tic Tac</div>
+        <div class="item-price">5 <span>EGP</span></div>
+        <div class="item-ar">تيك تاك</div>
+      </div>
+
 
     </div>
 
@@ -665,7 +744,7 @@
 
     <div class="items">
 
-  
+
 
       <div class="item">
         <div class="item-en">Small can</div>
@@ -725,9 +804,45 @@
       </div>
 
       <div class="item">
+        <div class="item-en">Mody Biscuit</div>
+        <div class="item-price">6 <span>EGP</span></div>
+        <div class="item-ar">بسكويت مودي</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Bimbo</div>
+        <div class="item-price">10 <span>EGP</span></div>
+        <div class="item-ar">بيمبو</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Ulker Biscuit</div>
+        <div class="item-price">10 <span>EGP</span></div>
+        <div class="item-ar">بسكويت أولكر</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Cookies Elabd</div>
+        <div class="item-price">12 <span>EGP</span></div>
+        <div class="item-ar">كوكيز العبد</div>
+      </div>
+
+      <div class="item">
         <div class="item-en">Moro Chocolate</div>
         <div class="item-price">25 <span>EGP</span></div>
         <div class="item-ar">مورو شيكولاته</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Cadbury</div>
+        <div class="item-price">15 <span>EGP</span></div>
+        <div class="item-ar">كادبوري</div>
+      </div>
+
+      <div class="item">
+        <div class="item-en">Cadbury Large</div>
+        <div class="item-price">25 <span>EGP</span></div>
+        <div class="item-ar">كادبوري كبير</div>
       </div>
 
       <div class="item">
